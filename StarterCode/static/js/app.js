@@ -154,15 +154,19 @@ function graphs(id) {
 }
 
 function optionChanged(newSample) {
-  buildcharts(newSample);
-  buildMetadata(newSample); 
+  // fetch new data each time a new sample is selected 
+  graphs(newSample);
+  demographicInfo(newSample); 
 }
 
-// calling functions below, come back to create init function within
-function init(first){
-    drop_down() 
-    demographicInfo()
-    graphs(first)
-};
-// call init function should be last step (initialize)
-init(940) 
+// // calling functions below, come back to create init function within
+// function init(){
+//     drop_down(); 
+//     var first = 940;
+//     demographicInfo();
+//     graphs(first);
+// }
+
+// // call init function should be last step (initialize)
+// init(); 
+drop_down();
