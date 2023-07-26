@@ -1,7 +1,7 @@
-# belly-button-challenge
+# Umbilicus Biodiversity Analysis 
 In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset Links to an external site., which catalogs the microbes that colonize human navels.
 
-Background
+## Background
 In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
@@ -20,12 +20,12 @@ Push the above changes to GitHub.
 
 Deploy the new repository to GitHub Pages.
 
-Files
+## Files
 Download the following files to help you get started:
 
 Module 14 Challenge filesLinks to an external site.
 
-Instructions
+## Instructions
 Complete the following steps:
 
 Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
@@ -51,7 +51,7 @@ Use otu_ids for the marker colors.
 
 Use otu_labels for the text values.
 
-Bubble Chart
+## Charts/Visualizations
 Display the sample metadata, i.e., an individual's demographic information.
 
 Display each key-value pair from the metadata JSON object somewhere on the page.
@@ -77,7 +77,8 @@ Use console.log inside of your JavaScript code to see what your data looks like 
 
 Refer to the Plotly.js documentationLinks to an external site. when building the plots.
 
-Requirements
+## Summary 
+
 Bar Chart (30 points)
 Chart initializes without error (10 points)
 
